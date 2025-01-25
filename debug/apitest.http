@@ -1,0 +1,14 @@
+@baseUrl=http://localhost:3000/api
+
+
+
+### generatewallpaper
+POST {{baseUrl}}/gen_wallpaper
+Content-Type: application/json
+
+{
+    "description":"萌萌蛇年宠物，漫画风"
+}
+
+###getwallpaper
+GET {{baseUrl}}/get_wallpaper
